@@ -1,0 +1,89 @@
+body{
+  margin: 0px;
+}
+.udText{
+    background-color: rgb(68, 68, 170);
+    color: white;
+    padding: 20px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  list-style-type: none;
+  margin-left: 0px;
+  padding:0;
+  display: flex;
+  float:inline-end;
+  justify-content: space-between;
+}
+.cours{
+  margin-left: 20px;
+}
+.cours button{
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(116, 109, 109);
+}
+#pressed{
+  color: black;
+}
+.search{
+    border-radius: 30px;
+    width: 600px;
+    height: 40px;
+  }
+#srch{
+  position:relative;
+  left: -600px;
+}
+.Tx , .ud{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.Lin{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px ;
+    cursor: pointer;
+}
+.Sin{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+.icon2{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  padding-left: 10ps;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.icon1{
+  background-color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.bar{
+  display: none;
+}

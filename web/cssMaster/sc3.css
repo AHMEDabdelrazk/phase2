@@ -1,0 +1,77 @@
+
+.broad , .choose{
+  padding-left:30px;
+  margin-top: 60px;
+  font-size:xx-large;
+}
+.bord{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(177, 171, 171);
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+.T1{
+  margin-left: 35px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.explore{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-weight:bolder;
+  padding: 15px ;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.flex-container{
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0px;
+}
+.flex-container div{
+   background-color: rgb(255, 255, 255);
+   color: white;
+   width: calc(98% / 7);
+   text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  }
+  .flex-star , .flex-price , .flex-Tech , .flex-Text{
+      background-color: rgb(255, 255, 255);
+      width: 1265px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 0px;
+      display: flex;
+      margin-top: 0px;
+      justify-content: space-between;
+  }
+  .flex-star div , .flex-price div , .flex-Tech div , .flex-Text div{
+       background-color: rgb(255, 255, 255);
+       width: 255px;
+       font-weight: bolder;
+       text-align: left;
+       padding-left: 20px;
+       padding-top: 0px;
+  }
+  #Best{
+    border: none;
+    height: 25px;
+    width: 68px;
+    background-color: rgb(228, 228, 148);
+    position: relative;
+    bottom: -20px;
+    left: 320px;
+  }
+  .checked , #last {
+      color: orange;
+  }

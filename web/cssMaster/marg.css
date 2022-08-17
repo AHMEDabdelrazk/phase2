@@ -1,0 +1,90 @@
+@media (max-width:1359px) {
+  .topnav {
+    display: none;
+  }
+  .bar{
+    display: contents;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+  }
+  #br{
+    float: right;
+  }
+  .centered {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: none;
+    text-align:left;
+    width:1340px;
+    height:200px;
+    background-color: rgb(192, 192, 192);
+    color: rgb(37, 6, 6);
+  }
+  .flex-container{
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    flex-direction: column;
+    
+  }
+  .flex-container div{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: calc(98% / 7);
+    text-align: center;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 5px;
+   }
+  .flex-Text,.flex-Tech,.flex-star,.flex-price{
+    position:absolute;
+    bottom:-800;
+    background-color: rgb(255, 255, 255);
+    width: 1265px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+    .flex-Text{
+      left: 330px;
+    }
+    .flex-Tech{
+      left: 630px;
+      }
+      .flex-star{
+          left: 830px;
+      }
+      .flex-price{
+        left: 990px;
+      }
+  .flex-Text div{
+     color: rgb(0, 0, 0);
+    }
+  .flex-Tech div{
+       color: rgb(156, 151, 151);
+       font-weight: lighter;
+       font-size: smaller;
+       text-align: left;
+    }
+    .flex-star div , .flex-price div , .flex-Tech div , .flex-Text div{
+         background-color: rgb(255, 255, 255);
+         width: 255px;
+         padding-left: 20px;
+         padding-top: 0px;
+         margin-top: 120px;
+    }
+    
+.flex-price div , .flex-star div , .flex-Text div{
+      font-weight: bolder;
+      text-align: left;
+}
+}
