@@ -86,7 +86,7 @@ inputText.addEventListener("input", async (e) => {
       </div> `;
   });
 
-  const searchButton = document.querySelector(".Sin");
+  const searchButton = document.querySelector(".submit");
 
   searchButton.addEventListener("click", (e) => {
     e.preventDefault();
